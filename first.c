@@ -1,8 +1,3 @@
-/* File: IF1.c */
-/* Penulis : Bu Dengklek, email inge@bebras.or.id */
-/* Deskripsi : */                                                
-/* contoh pemakaian IF satu kasus */
-/* membaca nilai integer, menuliskan nilainya jika positif */
 #include<stdio.h>
 int 
 main ()
