@@ -11,6 +11,7 @@ int main ()
   if (a >= 0)
     {
       printf ("Nilai a positif %d \n", a);
+      print("positif", a);
     }
   else /* a< 0 */
     {
