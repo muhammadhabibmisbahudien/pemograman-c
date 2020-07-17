@@ -59,6 +59,13 @@ int main ()
   char peran[10] = "superhero";
 
   // kode disini
+  if() {
+    // kondisi 1
+  } else if() {
+    // kondisi 2
+  } else {
+    // kondisi ...n
+  }
 }
 </pre>
 Output:
@@ -106,6 +113,17 @@ int main ()
   int tahun = 2020;
   
   // kode disini
+  switch(bulan) {
+    case 1:
+      printf("Januari");
+      break;
+    case 2:
+      printf("Februari");
+      break;
+     
+    default:
+      printf("Bulan hanya sampai Desember");
+  }
 }
 </pre>
 Output:
