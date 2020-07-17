@@ -46,56 +46,16 @@ Output:
 luas segitiga dengan alas = "x" & tinggi "x" hasilnya "x"
 </pre>
 
-4. Pada tugas ini kamu diminta untuk membuat game sederhana. Untuk memulai game ini diperlukan 2 variabel yaitu nama dan peran. Kedua Variabel ini tidak boleh kosong harus ada nilainya, untuk peran sendiri terdapat 2 jenis peran yaitu Superhero & Monster. Untuk selain 2 peran tersebut kalian harus memberikan peringatan. Tugas kalian adalah untuk mengecek masing masing variabel nama dan peran tersebut.<br>
+4. Pada tugas ini kamu harus bisa membuat aplikasi yang menentukan mana nilai genap dan mana nilai ganjil. Contoh jika 6 maka program akan mencetak "genap" atau "3" makan akan mencetak "ganjil".<br>
 <b>Kriteria</b>
-Variabel Nama dan Peran dapat diisi apa saja<br>
-Buatlah if - else percabangan untuk mengecek Nama dan Peran</br>
-<b>Skeleton Code</b>
-<pre>
-#include<stdio.h>
-int main ()
-{
-  char nama[10] = "saitama";
-  char peran[10] = "superhero";
-
-  // kode disini
-  if() {
-    // kondisi 1
-  } else if() {
-    // kondisi 2
-  } else {
-    // kondisi ...n
-  }
-}
-</pre>
+Gunakan modulus untuk menentukan sisa hasil bagi</br>
 Output:
 <pre>
-// Jika Nama & Peran Kosong
+// input 6
+"genap"
 
-"Nama dan Peran Harus Di Isi"
-
-
-
-// Jika Nama Diisi & Peran Kosong
-
-"Peran Harus Di Isi"
-
-
-
-// Jika Nama Diisi & Peran Diisi Superhero
-
-"Selamat Datang Superhero Saitama, Kalahkan Semua Monster Di Muka Bumi"
-
-
-
-// Jika Nama Diisi & Peran Diisi Monster
-
-"Selamat Datang Monster Saitama, Hancurkan Semua Superhero Yang Ada"
-
-
-// Jika Nama Diisi & Peran Diisi Bukan Superhero atau Monster
-
-"Selamat Datang Saitama, Pilih Peranmu Untuk Melanjutkan Game Ini"
+// input 3
+"ganjil"
 </pre>
 
 5. Pada tugas ini kamu diminta untuk mengkonversi variabel menjadi sebuah format tanggal. Misalkan tanggal = 21, bulan = 4, tahun = 2020 maka hasil output yang akan di keluarkan adalah 21 April 2020. Gunakanlah Switch Case untuk mengerjakan tantangan ini!<br>
