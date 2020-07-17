@@ -52,11 +52,11 @@ Variabel Nama dan Peran dapat diisi apa saja<br>
 Buatlah if - else percabangan untuk mengecek Nama dan Peran</br>
 <b>Skeleton Code</b>
 <pre>
-#include&lt;stdio.h&gt;
+#include<stdio.h>
 int main ()
 {
-  char nama = "saitama";
-  char peran = "superhero";
+  char nama[10] = "saitama";
+  char peran[10] = "superhero";
 
   // kode disini
 }
