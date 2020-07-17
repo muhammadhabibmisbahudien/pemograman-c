@@ -68,26 +68,32 @@ Buatlah switch case untuk mengkonversi variabelnya menjadi format tanggal<br>
 int main ()
 {
   // input
-  int tanggal = 21;
-  int bulan = 4;
-  int tahun = 2020;
-  
-  // kode disini
-  switch(bulan) {
+    int tanggal = 21;
+    int bulan = 4;
+    int tahun = 2020;
+    char *namabulan;
+    // kode disini
+    switch (bulan)
+    {
     case 1:
-      printf("Januari");
-      break;
+        namabulan = "Januari";
+        break;
     case 2:
-      printf("Februari");
-      break;
+        namabulan = "Februari";
+        break;
      
     default:
-      printf("Bulan hanya sampai Desember");
+      namabulan = "Bulan hanya sampai Desember";
   }
+  
+  // print result:
+  printf("%d %s %d", tanggal, namabulan, tahun);
+  return 0;
 }
 </pre>
 Output:
 <pre>
+
 // int tanggal 21, bulan 4, tahun 2020
 
 "21 April 2020"
