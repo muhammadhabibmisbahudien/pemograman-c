@@ -16,8 +16,7 @@ tidak boleh merubah langsung nilainya<br>
 <b>Skeleton Code</b>
 <pre>
 #include&lt;stdio.h&gt;
-int 
-main ()
+int main ()
 {
   int a = 15;
   int b = 20;
@@ -34,8 +33,7 @@ a = 20, b = 15
 <b>Skeleton Code</b>
 <pre>
 #include&lt;stdio.h&gt;
-int 
-main ()
+int main ()
 {
   int alas = 15;
   int tinggi = 20;
@@ -55,8 +53,7 @@ Buatlah if - else percabangan untuk mengecek Nama dan Peran</br>
 <b>Skeleton Code</b>
 <pre>
 #include&lt;stdio.h&gt;
-int 
-main ()
+int main ()
 {
   char nama = "saitama";
   char peran = "superhero";
@@ -101,8 +98,7 @@ Buatlah switch case untuk mengkonversi variabelnya menjadi format tanggal<br>
 <b>Skeleton Code</b>
 <pre>
 #include&lt;stdio.h&gt;
-int 
-main ()
+int main ()
 {
   // input
   int tanggal = 21;
