@@ -8,55 +8,51 @@ Bandar Lampung
 Membaca Buku
 </pre>
 
-2. Pada tugas ini kamu harus bisa membuat aplikasi yang menentukan mana nilai genap dan mana nilai ganjil. Contoh jika 6 maka program akan mencetak "genap" atau "3" makan akan mencetak "ganjil".<br>
-<b>Kriteria</b>
-Gunakan modulus untuk menentukan sisa hasil bagi</br>
-Output:
+2. Pada Tugas ini Kamu harus bisa menentukan, jam kegiatan<br>
+Contoh = jika jam 8 sampai jam 11 maka akan mencetak “WAKTU BELAJAR” dan sama untuk jam 13 sampai jam 17, Ketika jam 12 maka akan mencetak “WAKTU ISTIRAHAT”, jika jam 4 sampat jam 5 maka akan mencetak “WAKTU BANGUN”, selain dari jam tersebut akan mencetak “WAKTU MAIN”, bila user menginput melebihi 24 jam maka akan mencetak “HANYA ADA 24 JAM DALAM SEHARI”<br>
+<b>KriteriaM/b>
 <pre>
-// input 6
-"genap"
-
-// input 3
-"ganjil"
+Gunakan <, >, <=, >=, ||, && dan if, else, else if
+Dapat menginput angka dari para meter function
 </pre>
-
-5. Pada tugas ini kamu diminta untuk mengkonversi variabel menjadi sebuah format tanggal. Misalkan tanggal = 21, bulan = 4, tahun = 2020 maka hasil output yang akan di keluarkan adalah 21 April 2020. Gunakanlah Switch Case untuk mengerjakan tantangan ini!<br>
-<b>Kriteria</b>
-Variabel tanggal, bulan dan tahun harus bertipe angka<br>
-Buatlah switch case untuk mengkonversi variabelnya menjadi format tanggal<br>
 <b>Skeleton Code</b>
 <pre>
 #include&lt;stdio.h&gt;
 int main ()
 {
-  // input
-    int tanggal = 21;
-    int bulan = 4;
-    int tahun = 2020;
-    char *namabulan;
-    // kode disini
-    switch (bulan)
-    {
-    case 1:
-        namabulan = "Januari";
-        break;
-    case 2:
-        namabulan = "Februari";
-        break;
-     
-    default:
-      namabulan = "Bulan hanya sampai Desember";
-  }
+  int inputJam;
+  printf("Masukkan Jam :");
+  scanf("%d", &inputJam);
   
-  // print result:
-  printf("%d %s %d", tanggal, namabulan, tahun);
-  return 0;
+  if(inputJam > ){
+      //kode disini
+   } else if(input < ){
+      //kode disini
+   } else {
+      //kode disini
+   }
+   
 }
 </pre>
-Output:
+<b>Output</b>
 <pre>
+// input Waktu(9)
 
-// int tanggal 21, bulan 4, tahun 2020
+Waktu Belajar
 
-"21 April 2020"
-</pre>
+// input Waktu(12)
+
+Waktu Istirahat
+
+// input Waktu(4)
+
+Waktu Bangun
+
+// input Waktu(25)
+
+Hanya Ada 24 jam dalam sehari
+
+// input Waktu(20)
+
+Waktu Main
+</b>
