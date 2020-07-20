@@ -92,3 +92,40 @@ int main ()
 
 “BUKAN TAHUN KABISAT”
 </pre>
+
+3. Pada tugas ini kamu diminta untuk mencetak suara binatang dari hasil inputan nama binatangnya<br>
+<b>Kriteria</b>
+<pre>
+Gunakan metode switch case
+</pre>
+<b>Skeleton Code</b>
+<pre>
+#include&lt;stdio.h&gt;
+int main ()
+{
+  int inputBinatang;
+  printf("Masukkan Jenis Binatang :");
+  scanf("%d", &inputBinatang);
+  
+ switch(input) {
+    case :
+      ?????
+      break
+
+   }
+   
+}
+</pre>
+<b>Output</b>
+<pre>//input SwitchCase(kucing)
+
+Meowww~
+
+//input SwitchCase(anjing)
+
+Guk Guk
+
+//input SwitchCase(sapi)
+
+Moooooo
+</pre>
