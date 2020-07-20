@@ -10,7 +10,7 @@ Membaca Buku
 
 2. Pada Tugas ini Kamu harus bisa menentukan, jam kegiatan<br>
 Contoh = jika jam 8 sampai jam 11 maka akan mencetak “WAKTU BELAJAR” dan sama untuk jam 13 sampai jam 17, Ketika jam 12 maka akan mencetak “WAKTU ISTIRAHAT”, jika jam 4 sampat jam 5 maka akan mencetak “WAKTU BANGUN”, selain dari jam tersebut akan mencetak “WAKTU MAIN”, bila user menginput melebihi 24 jam maka akan mencetak “HANYA ADA 24 JAM DALAM SEHARI”<br>
-<b>KriteriaM/b>
+<b>Kriteria</b>
 <pre>
 Gunakan <, >, <=, >=, ||, && dan if, else, else if
 Dapat menginput angka dari para meter function
