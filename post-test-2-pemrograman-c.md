@@ -13,7 +13,7 @@ Contoh = jika jam 8 sampai jam 11 maka akan mencetak “WAKTU BELAJAR” dan sam
 <b>Kriteria</b>
 <pre>
 Gunakan <, >, <=, >=, ||, && dan if, else, else if
-Dapat menginput angka dari para meter function
+Dapat menginput angka dari keyboard
 </pre>
 <b>Skeleton Code</b>
 <pre>
