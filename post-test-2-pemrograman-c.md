@@ -55,4 +55,40 @@ Hanya Ada 24 jam dalam sehari
 // input Waktu(20)
 
 Waktu Main
-</b>
+</pre>
+
+3. Pada tugas ini kamu harus bisa membuat algoritma tahun kabisat, kabisat adalah tahun dimana dia memiliki tanggal 29 februari, kejadian ini terjadi 4 tahun sekali<br>Contoh = Jika menginput tahun dan BUKAN  tahun kabisat maka akan mencetak “BUKAN TAHUN KABISAT”, jika benar tahun itu tahun kabisat maka akan mencetak “TAHUN KABISAT”<br>
+<b>Kriteria</b>
+<pre>
+Dapat menginput angka dari keyboard
+Menggunakan modulus dan if, else, else if
+</pre>
+<b>Skeleton Code</b>
+<pre>
+#include&lt;stdio.h&gt;
+int main ()
+{
+  int inputTahun;
+  printf("Masukkan Tahun :");
+  scanf("%d", &inputTahun);
+  
+  if(inputTahun % ){
+      //kode disini
+   } else if(inputTahun % ){
+      //kode disini
+   } else {
+      //kode disini
+   }
+   
+}
+</pre>
+<b>Output</b>
+<pre>
+// input Tahun(2020)
+
+"TAHUN KABISAT”
+
+// input Tahun(2019)
+
+“BUKAN TAHUN KABISAT”
+</pre>
