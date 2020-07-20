@@ -103,11 +103,11 @@ Gunakan metode switch case
 #include&lt;stdio.h&gt;
 int main ()
 {
-  int inputBinatang;
+  char *inputBinatang;
   printf("Masukkan Jenis Binatang :");
-  scanf("%d", &inputBinatang);
+  scanf("%s", &inputBinatang);
   
- switch(input) {
+ switch(inputBinatang) {
     case :
       ?????
       break
