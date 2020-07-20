@@ -15,7 +15,7 @@ Bahasa C banyak dipakai untuk:
 
 ### IDE
 
-IDE dalam membuat C dapat menggunakan **Visual Studio Code\*** atau dapat menggunakan IDE Online secara gratis di : <br>
+IDE dalam membuat C dapat menggunakan **Visual Studio Code** atau dapat menggunakan IDE Online secara gratis di : <br>
 
 1. Jdoodle : https://www.jdoodle.com/c-online-compiler
 2. Glot : https://glot.io/new/c
