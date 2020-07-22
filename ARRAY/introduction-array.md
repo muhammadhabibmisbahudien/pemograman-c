@@ -148,23 +148,23 @@ Banyaknya isi array nilai: 5
 
 <pre>
 // membuat array dari tinggi badan
-int tinggi_badan[10] = {175, 165, 166, 157, 184, 156, 163, 176, 171, 169};
+int tinggiBadan[10] = {175, 165, 166, 157, 184, 156, 163, 176, 171, 169};
 </pre>
 
-1. Mencari Nilai Terbesar
+1. Mencari Nilai Terbesar<br>
 Algoritma:
 <pre>
-Tentukan Tab[0] sebagai nilai maksimum sementara yang diberi nama max !
-Untuk setiap elemen Tab[1] s.d. Tab[9] yang diakses dengan nama Tab[i]
-            Jika nilai Tab[i] > max maka max=Tab[i]
-/* selesai pemeriksaan Tab[1] s.d. Tab[9]: max adalah nilai paling besar */
+Tentukan tinggiBadan[0] sebagai nilai maksimum sementara yang diberi nama max !
+Untuk setiap elemen tinggiBadan[1] s.d. tinggiBadan[9] yang diakses dengan nama Tab[i]
+            Jika nilai tinggiBadan[i] > max maka max=Tab[i]
+/* selesai pemeriksaan tinggiBadan[1] s.d. tinggiBadan[9]: max adalah nilai paling besar */
 </pre>
-2. Mencari Nilai Terkecil
+2. Mencari Nilai Terkecil<br>
 Algoritma:
 <pre>
 Sama hal nya seperti mencari nilai terbesar
 </pre>
-3. Mencari Nilai Rata-rata
+3. Mencari Nilai Rata-rata<br>
 Algoritma:
 <pre>
 Buat tampungan total untuk menampung total nilai
