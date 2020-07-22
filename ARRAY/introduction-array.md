@@ -43,3 +43,67 @@ void main(){
     printf("Huruf: %c\n", huruf[2]);
 }
 </pre>
+
+Output
+
+<pre>
+c
+</pre>
+
+### Mengisi Ulang Data pada Array
+
+<pre>
+#include &lt;stdio.h&gt;
+
+void main(){
+    // isi awal array
+    char huruf[5] = {'a', 'b', 'c', 'd', 'e'};
+
+    // mengubah isi array
+    huruf[2] = 'z';
+
+    // mencetak isi array
+    printf("Huruf: %c\n", huruf[2]);
+}
+</pre>
+
+Output
+
+<pre>
+z
+</pre>
+
+Contoh lain: <br>
+
+<pre>
+#include &lt;stdio.h&gt;
+
+void main(){
+    // membuat array kosong
+    int nilai[5];
+
+    // mengisi array
+    nilai[0] = 32;
+    nilai[1] = 42;
+    nilai[2] = 76;
+    nilai[3] = 31;
+    nilai[4] = 57;
+
+    // mencetak isi array
+    printf("Nilai ke-1: %d\n", nilai[0]);
+    printf("Nilai ke-2: %d\n", nilai[1]);
+    printf("Nilai ke-3: %d\n", nilai[2]);
+    printf("Nilai ke-4: %d\n", nilai[3]);
+    printf("Nilai ke-5: %d\n", nilai[4]);
+}
+</pre>
+
+Output :<br>
+
+<pre>
+Nilai ke-1: 32
+Nilai ke-2: 42
+Nilai ke-3: 76
+Nilai ke-4: 31
+Nilai ke-5: 57
+</pre>
