@@ -107,3 +107,39 @@ Nilai ke-3: 76
 Nilai ke-4: 31
 Nilai ke-5: 57
 </pre>
+
+### Mengambil Panjang Array
+
+Fungsi <code>sizeof()</code> untuk mengambil panajang atau ukuran array.<br>
+Fungsi sizeof() sebenarnya akan mengambil ukuran memori dari array.<br>
+Misalkan saya punya array seperti ini:<br>
+
+<pre>
+int nilai[2] = {1,2};
+</pre>
+
+Isi array-nya berupa integer, tipe data integer memiliki ukuran 4 byte dalam memori. Maka ukuran array tersebut adalah 8 byte.<br>
+Lalu bagaimana cara mendapatkan banyaknya isi array?<br>
+Bahasa pemrograman C belum memiliki fungsi khusus untuk mengambil banyaknya isi array.<br>
+Tapi kita bisa mengambil panjang array dengan membagi besar array dan ukuran pointernya.<br>
+Contoh:
+
+<pre>
+#include &lt;stdio.h&gt;
+
+void main(){
+    // membuat array
+    int nilai[5] = {33, 22, 11, 44, 21};
+
+    //  mengambil banyaknya isi array
+    int length = sizeof(nilai) / sizeof(*nilai);
+
+    printf("Banyaknya isi array nilai: %d\n", length);
+}
+</pre>
+
+Output :
+
+<pre>
+Banyaknya isi array nilai: 5
+</pre>
