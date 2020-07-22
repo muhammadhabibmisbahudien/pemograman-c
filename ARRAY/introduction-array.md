@@ -176,6 +176,45 @@ Selanjutnya mencari nilai rata rata dengan membagi hasil total yang di dapat den
 /* selesai mencari nilai rata-rata, dan keluarkan hasilnya menggunakna fungsi printf  */
 </pre>
 
+### Array Multi Dimensi
+
+Array yang kita buat pada contoh-contoh program di atas adalah array satu dimensi.<br>
+Array bisa dibuat dua dimensi bahkan lebih.<br>
+Array multidimensi biasanya digunakan untuk membuat matriks.<br>
+Contoh array dua dimensi:<br>
+
+<pre>
+int matriks[3][3] = {
+    {1, 3, 5},
+    {5, 3, 1},
+    {6, 2, 3}
+};
+</pre>
+
+Array dua dimensi biasanya digunakan untuk membuat matriks.<br>
+Lalu bagaimana cara mengambil data dari array dua dimensi?<br>
+Begini caranya:<br>
+
+<pre>
+#include &lt;stdio.h&gt;
+
+void main(){
+    int matriks[3][3] = {
+        {1, 3, 5},
+        {5, 3, 1},
+        {6, 2, 3}
+    };
+
+    printf("Isi Data pada indeks ke-(1,0): %d\n", matriks[1][0]);
+}
+</pre>
+
+Output :
+
+<pre>
+Isi Data pada indeks ke-(1,0): 5
+</pre>
+
 <br>
 <br>
 <br>
