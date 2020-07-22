@@ -144,6 +144,38 @@ Output :
 Banyaknya isi array nilai: 5
 </pre>
 
+### Latihan: Array
+
+<pre>
+// membuat array dari tinggi badan
+int tinggi_badan[10] = {175, 165, 166, 157, 184, 156, 163, 176, 171, 169};
+</pre>
+
+1. Mencari Nilai Terbesar
+Algoritma:
+<pre>
+Tentukan Tab[0] sebagai nilai maksimum sementara yang diberi nama max !
+Untuk setiap elemen Tab[1] s.d. Tab[9] yang diakses dengan nama Tab[i]
+            Jika nilai Tab[i] > max maka max=Tab[i]
+/* selesai pemeriksaan Tab[1] s.d. Tab[9]: max adalah nilai paling besar */
+</pre>
+2. Mencari Nilai Terkecil
+Algoritma:
+<pre>
+Sama hal nya seperti mencari nilai terbesar
+</pre>
+3. Mencari Nilai Rata-rata
+Algoritma:
+<pre>
+Buat tampungan total untuk menampung total nilai
+Tentukan terlebih dahulu panjang array yang di sediakan
+Buatlah sebuah perulangan untuk menghitung nilai index yang ada di array tersebut
+        kemudian masukkan total = total+tinggiBadang[i];
+        total ditemukan
+Selanjutnya mencari nilai rata rata dengan membagi hasil total yang di dapat dengan panjang array yang sudah di tentukan awal
+/* selesai mencari nilai rata-rata, dan keluarkan hasilnya menggunakna fungsi printf  */
+</pre>
+
 <br>
 <br>
 <br>
