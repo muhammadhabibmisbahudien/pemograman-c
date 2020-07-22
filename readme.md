@@ -33,3 +33,4 @@ IDE dalam membuat C dapat menggunakan **Visual Studio Code** atau dapat mengguna
 | %s               | String Format Specifier           |
 | %u               | Unsigned Integer Format Specifier |
 | %ld              | Long Int Format Specifier         |
+| %x               | Memory                            |
